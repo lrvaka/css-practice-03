@@ -36,7 +36,6 @@ h2 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30%;
     background-color: #2A2A2A;
 }
 
@@ -107,7 +106,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    row-gap: 1px;
+    gap: 1px;
     padding: 0 3px;
     margin-bottom: 4px;
 }
