@@ -31,6 +31,10 @@ h2 {
     font-size:15px;
 }
 
+.button:hover {
+    background-color: lightgray;
+}
+
 .calc-app {
     position: absolute;
     top: 50%;
@@ -52,8 +56,13 @@ h2 {
     width: 90px;
 }
 
-.nav img {
-    
+.nav div {
+    width: 90px;
+    padding-left: 8px;
+}
+
+.nav div:hover {
+    background-color: white;
 }
 
 .nav img[alt="exit"] {
@@ -115,6 +124,14 @@ h2 {
     background-color: #202020;
 }
 
+.percent:hover, .ce:hover, .c:hover, .delete:hover, .divide:hover, .minus:hover, .times:hover {
+    background-color: grey;
+}
+
 .equal {
     background-color: #81452F;
+}
+
+.equal:hover {
+    background-color:grey;
 }
